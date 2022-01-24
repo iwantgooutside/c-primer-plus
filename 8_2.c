@@ -13,9 +13,10 @@ int main()
         case ' ' :
           continue;
         case '\n' :
-          printf("\n");
+          i_index = 0 ;
           printf("\\n ");
           printf("%-4d",(int)'\n');
+          printf("\n");
           break;
         case '\t' :
           printf("\\t ");
